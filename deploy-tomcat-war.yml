@@ -2,4 +2,4 @@
   tasks:
     - copy:
         src: sample.war
-        dest: /opt/tomcat9/path/to/webapps
+        dest: /var/lib/tomcat9/webapps
