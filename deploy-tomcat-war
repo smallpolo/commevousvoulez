@@ -1,0 +1,5 @@
+- hosts: all
+  tasks:
+    - copy:
+        src: sample.war
+        dest: /opt/tomcat9/path/to/webapps
